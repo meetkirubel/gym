@@ -133,6 +133,15 @@
  .card__container .text ul p{
     color: var(--primary);
  }
+ .card__container .text p::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .card__container .text p {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 @media screen and (max-width: 1000px) {
     .testimonal__cards {
@@ -145,15 +154,7 @@
         overflow-y: scroll;
         scroll-snap-type: proximity;
      }
-     .card__container .text p::-webkit-scrollbar {
-        display: none;
-      }
-      
-      /* Hide scrollbar for IE, Edge and Firefox */
-      .card__container .text p {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-      }
+
 }
 
 
