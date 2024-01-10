@@ -148,6 +148,7 @@ input[type=number] {
   display: flex;
   flex-wrap: wrap;
   margin-inline: auto;
+  gap: 3rem;
 }
 .full__container {
   width: 100%;
