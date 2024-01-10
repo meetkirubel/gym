@@ -13,7 +13,6 @@ const Header = () => {
         {'href':'/','lable':'Home'},
         {'href':'/about','lable':'About'},
         {'href':'/price','lable':'Price'},
-        {'href':'/ourtrainer','lable':'OurTrainer'},
     ]
     const [nav,setNav] =useState(false)
   return (
