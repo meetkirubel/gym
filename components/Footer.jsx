@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaYoutube, FaLocationDot } from 'react-icons/fa'
 import { MdLocationPin,MdEmail,MdPhone} from 'react-icons/md'
 const Footer = () => {
+    const d = new Date();
+    let year = d.getFullYear();
   return (
     <footer className='lite-section'>
                 <Image
@@ -39,8 +41,8 @@ const Footer = () => {
             <li><Link href='/contact'>Contact</Link></li>
         </ul>
         <div className="bottom__footer">
-                <span>© 2023 Power Entertainment Addis.</span>
-                <span>Powerd By Gravelcods.</span>
+                <span>©{ year}Power Entertainment Addis.</span>
+                <Link href="https://devkira.vercel.app"><span>Powerd By MeetKirubel.</span></Link>
         </div>
     </footer>
   )

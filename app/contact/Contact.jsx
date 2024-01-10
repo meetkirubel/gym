@@ -47,7 +47,7 @@ export default function Contact(){
         </div>  
         
         
-        <div className="container container__flex contact-info">
+        <div className="container container__flex contact-info my-11">
 
           <div className="left">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15762.614134366087!2d38.8200765!3d9.0039926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b9b3e9b362b11%3A0x13b35ec6fa60117a!2sPOWER%20GYM%20ADDIS!5e0!3m2!1sen!2set!4v1695633226442!5m2!1sen!2set" width="100%" height="100%" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
