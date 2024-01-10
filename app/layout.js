@@ -1,6 +1,7 @@
 import Footer from '@components/Footer'
 import Header from '@components/Header'
 import '@style/globals.css'
+import '@style/about.css'
 
 export const metadata = {
   title: 'Power Gym',
