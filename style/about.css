@@ -1,0 +1,386 @@
+.about__hero {
+    background-image: url('/images/about-hero.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    mix-blend-mode: multiply;
+    background-color: black;
+}
+
+
+
+.container .about__text__container p{
+    text-wrap: warp;
+
+}
+.container .about__video__container{
+    text-align: center;
+    position: relative;
+
+}
+.container .about__video__container .img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .about__container {
+        display: block;
+    }
+    .container .about__video__container {
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
+.container .cards{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.container .cards .card {
+    width: 30%;
+    text-align: center;
+    padding-block: 2rem;
+    background-color: var(--bg-1);
+}
+.container .cards .card .icon{ 
+    margin-inline: auto;
+    font-size: 4rem;
+}
+.container .cards .card .service__icon{ 
+    fill: var(--primary);
+}
+.container .cards .card h3 {
+    font-size: 1rem;
+    color: var(--text-1);
+    font-weight: 300;
+}
+.container .cards .card p {
+    margin-inline: auto;
+    font-size: .9rem;
+    text-align: left;
+    width: 85%;
+    margin-top: 2rem;
+}
+.container .cards .card .list {
+    text-align: left;
+}
+
+
+
+
+
+
+.service__container {
+
+}
+.service__container p{
+    margin-inline: auto;
+    text-align: center;
+}
+
+.service__container .service__cards{
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container .cards{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container .cards .card {
+        width: 47%;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .container .cards{
+        justify-content: center;
+    }
+    .container .cards .card {
+        width: 90%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact__hero {
+    height: 50vh;
+    background-image: url("/images/contact-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  
+  .map {
+    padding-block: 2rem;
+  }
+  
+  .contact-info {
+    padding-block:0;
+  }
+  .contact-info .right, .contact-info .left {
+    padding-block:0;
+  }
+  .contact-info .right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-info .right form {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .contact-info .right form h2{
+    text-align: left;
+    color: var(--primary);
+  }
+
+  .contact-info .right form .input__container textarea {
+    border: 1px solid var(--text-1);
+    width: 100%;
+    padding: .8rem 1.25rem;
+    font-weight: 300;
+    height: 10rem;
+    background-color: transparent;
+  }
+  .contact-info .right form .input__container textarea:focus {
+    border-color: var(--primary);
+  }
+
+.social__link {
+    padding-top: 1rem;
+    display: flex;
+    font-size: 1.25rem;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+  }
+.social__link a {
+    border: 2px solid var(--text-1);
+    padding: 0.5em 0.75rem;
+    transition: var(--transition);
+    background-color: var(--primary);
+    border-color: var(--text-2);
+  }
+.social__link a:hover {
+    background-color: transparent;
+    border-color: var(--text-1);
+  }
+
+
+  .contacts{
+    margin-top: 2rem;
+  }
+  .contacts ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .contacts ul li{
+    width: 28%;
+    padding: 2rem 1rem;
+    border: 1px solid var(--text-1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+  }
+  
+  .contacts ul li  .icon{
+    fill: var(--primary);
+    font-size: 3rem;
+    margin-block: .25rem;
+    margin-inline: auto;
+  }
+  .contacts ul li  .icon .icon{
+    fill: var(--primary);
+  }
+  
+  @media (max-width: 1000px) {
+    .contact__hero {
+        height: 40vh;
+      }
+    .contact-info .right, .contact-info .left {
+        margin-block: 3rem;
+    }
+    .contact-info .left iframe{
+        height: 30rem;
+      }
+    .contact-info .right form {
+        width: 100%;
+        margin-inline: auto;
+      }
+    .contact-info .right form h2{
+        text-align: center;
+      }
+    .contacts ul{
+        flex-wrap: wrap;
+        justify-content: left;
+      }
+      .contacts ul li{
+        width: 45%;
+      }
+  }
+
+  @media (max-width: 600px) {
+
+    .contacts ul{
+        flex-wrap: wrap;
+        justify-content: left;
+      }
+      .contacts ul li{
+        width: 100%;
+      }
+
+
+  }
+
+
+
+
+
+
+
+
+
+  .price__hero {
+    background-image: url('/images/price-hero.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    mix-blend-mode: multiply;
+    background-color: black;
+}
+
+
+
+
+ .card__container__price {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto ;
+    margin-block: 3rem;
+ }
+
+ .price__plan__card {
+    width: 40%;
+    padding-bottom: 2rem;
+    border: 2px solid var(--primary); 
+
+ }
+ .price__plan__card h2 {
+    font-size: 2rem;
+    background-color: var(--primary);
+    color: var(--white);
+ }
+
+ .price__plan__card h3 {
+    font-size: 1rem;
+    padding-block: 1rem;
+    font-weight: 700;
+    color: var(--text-1);
+    background-color: var(--white);
+    background-color: var(--gree);
+ }
+ .price__plan__card .card__body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+ }
+ .price__plan__card .card__body::after{
+    content: "";
+    position: absolute;
+    background-color: var(--text-1);
+    border-radius: 50%;
+    height: 100%;
+    width: 1px;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+ }
+ .price__plan__card .card__body .card{
+    width: 50%;
+    padding-bottom: 1rem;
+ }
+ .price__plan__card .card__body .card h4{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-1);
+ }
+
+ .price__plan__card .card__body .card .service {
+  margin-block: 1.3rem 1rem;
+  color: var(--text-1);
+  position: relative;
+}
+ .price__plan__card .card__body .card a {
+  color: var(--primary);
+}
+.price__plan__card .card__body .card .service::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 2px;
+  background-color: var(--gree);
+  color: var(--text-1);
+}
+
+
+
+
+.price__plan__card .card__body .card{
+  width: 50%;
+  padding-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width: 1000px){
+  .card__container__price  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .price__plan__card {
+    width: 100%;
+  }
+  
+  .price__plan__card h2 {
+    font-size: 1.5rem;
+ }
+}
+@media screen and (max-width: 500px){
+ .price__plan__card .card__body .card h4 ,.price__plan__card .card__body .card li {
+  font-size: .8rem;
+ }
+}
+
+

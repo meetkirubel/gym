@@ -1,0 +1,107 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow-y: visible;
+    z-index: 1000;
+    /* background-color: var(--primary); */
+}
+
+header .nav__container .nav__links {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+header .nav__container .nav__links  .nav__link a{
+    font-weight: 400;
+}
+header .nav__container .nav__links  .nav__link a{
+    font-weight: 400;
+    font-size: .9rem;
+    color: #ffffff;
+}
+header .nav__container .nav__links .active{
+    color: var(--primary);
+    position: relative;
+}
+header .nav__container .nav__links .active::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary);
+    color: var(--primary);
+    font-weight: 400;
+}
+header .nav__btn a {
+    font-weight: 400;
+    font-size: .9rem;
+    color: #ffffff;
+}
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px){
+    header .nav__container {
+        width: var(--container-width-md);
+    }
+    header .nav__container .logo{
+        width: 80%;
+        text-align: center;
+        margin-inline: auto;
+        height: auto;
+    }
+
+    .mobile {
+        display: block;
+    }
+    .mobile  .icons{
+        display: none;
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        transform: translate(-50%,-50%);
+        font-size: 2rem;
+        opacity: 0;
+        fill: #ffffff;
+        transition: all 1000ms ease;
+    }
+    .mobile  .active {
+        display: block;
+        opacity: 1;
+        transition: var(--transition);
+    }
+    .desktop {
+        display: none;
+    }
+    header .nav__container .nav__links  {
+        position: absolute;
+        top: 0%;
+        right: -130%;
+        width: 21rem;
+        height: 70vh;
+        transform: translate(-0%,15%);
+        background-color: var(--bg-1);
+        border: 2px solid var(--gree); 
+        color: var(--primary);
+        flex-direction: column;
+        border-radius: .5rem;
+        justify-content: center;
+        transition: all 0ms ease-in;
+    }
+    header .nav__container .nav__links__active  {
+        right: 4%;
+        transition: var(--nav-transition);
+    }
+    
+    header .nav__container .nav__links  .nav__link a{
+        font-weight: 400;
+        font-size: .9rem;
+        color: var(--text-1);
+    }
+}
