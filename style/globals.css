@@ -146,9 +146,8 @@ input[type=number] {
 }
 .container__flex {
   display: flex;
-  flex-wrap: wrap;
   margin-inline: auto;
-  gap: .2rem;
+  gap: 3rem;
 }
 .full__container {
   width: 100%;
@@ -295,6 +294,7 @@ input[type=number] {
     margin-bottom: 1rem;
   }
   .container__flex {
+    flex-wrap: wrap;
     display: block;
   }
   .full__height{
@@ -397,58 +397,6 @@ footer .top__footer .other p {
   border-color: var(--text-1);
 }
 
-/* footer .info {
-  display: flex;
-  padding-block: 0;
-  justify-content: space-around;
-}
-footer .info .quick__contacts{
-  width: 30%;
-}
-footer .info .sister__company{
-  width: 30%;
-  }
-  
-footer .info .pargraph{
-  width: 35%;
-  font-size: .9rem;
-  }
-
-footer .info .quick__contacts h3{
-  text-align: left;
-}
-footer .info .quick__contacts ul li {
-  align-items: center;
-}
-footer .info .quick__contacts ul li span{
-  font-size: 1.25rem;
-}
-footer .info .quick__contacts ul li p{
-  padding: 0;
-  margin: 0;
-}
-
-
-footer .quick__contacts {
-  width: 100%;
-}
-
-footer .quick__contacts h3{
-  text-align: center;
-}
-
-footer .quick__contacts ul li {
-  margin-block: 1rem;
-  margin-inline: auto;
-  display: flex;
-  align-items: center;
-  font-size: 0.9rem;
-  font-weight: 300;
-  gap: 0.5rem;
-  text-wrap: wrap;
-}
-
-
 footer .info .sister__company ul{
   width: 70%;
   padding-top: .8rem;
@@ -490,22 +438,6 @@ footer .info .sister__company ul li{
 
 
 @media screen and (max-width: 1000px) {
-
-  /* footer .info {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .info .sister__company{
-    width: 100%;
-    margin-inline: auto;
-    }
-  footer .info .quick__contacts{
-      width: 100%;
-      margin-inline: auto;
-    }
-  footer .info .quick__contacts ul{
-      margin-inline: auto;
-    } */
 
   .middle__footer {
     padding-block: 1.5rem;
