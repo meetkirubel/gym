@@ -356,7 +356,8 @@
     gap: 2rem;
     width: 100%;
 }
-.input__container{
+
+.inputs__containers .input__container{
     display: block;
     width: 45%;
 }
