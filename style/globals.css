@@ -460,7 +460,7 @@ footer .info .sister__company ul li{
     text-align: center;
     font-size: 0.8rem;
   }
-  .bottom__footer a{
+  .bottom__footer a span{
     color: var(--primary);
   }
 }

@@ -40,7 +40,7 @@ const Footer = () => {
             <li><Link href='/contact'>Contact</Link></li>
         </ul>
         <div className="bottom__footer">
-                <span>©{ year} Power Entertainment Addis.</span>
+                <span>© {year} Power Entertainment Addis.</span>
                 <Link href="https://devkira.vercel.app"><span>Powerd By MeetKirubel.</span></Link>
         </div>
     </footer>
