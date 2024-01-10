@@ -434,7 +434,9 @@ footer .info .sister__company ul li{
   font-size: .9rem;
   justify-content: space-between;
 }
-
+.bottom__footer a span{
+  color: var(--primary);
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -459,9 +461,6 @@ footer .info .sister__company ul li{
     margin-inline: auto;
     text-align: center;
     font-size: 0.8rem;
-  }
-  .bottom__footer a span{
-    color: var(--primary);
   }
 }
 
