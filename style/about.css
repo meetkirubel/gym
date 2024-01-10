@@ -12,7 +12,6 @@
 
 .container .about__text__container p{
     text-wrap: warp;
-
 }
 .container .about__video__container{
     text-align: center;
@@ -155,6 +154,9 @@
     color: var(--primary);
   }
 
+  .contact-info .right form .input__container input{
+    width: 100%;
+  }
   .contact-info .right form .input__container textarea {
     border: 1px solid var(--text-1);
     width: 100%;
