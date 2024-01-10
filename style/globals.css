@@ -148,7 +148,7 @@ input[type=number] {
   display: flex;
   flex-wrap: wrap;
   margin-inline: auto;
-  gap: 3rem;
+  gap: .2rem;
 }
 .full__container {
   width: 100%;
@@ -539,3 +539,10 @@ footer .info .sister__company ul li{
     font-size: 0.6rem;
   }
  }
+ input{
+  width: 100%;
+  padding: .8rem 1.25rem;
+  border: 1px solid var(--text-1);
+  background-color: transparent;
+  font-weight: 200;
+}

@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    mix-blend-mode: multiply;
+    background-color: black;
 }
 
 
@@ -154,9 +154,6 @@
     color: var(--primary);
   }
 
-  .contact-info .right form .input__container{
-    width: 100%;
-  }
   .contact-info .right form .input__container textarea {
     border: 1px solid var(--text-1);
     width: 100%;
@@ -272,7 +269,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    mix-blend-mode: multiply;
+    background-color: black;
 }
 
 
